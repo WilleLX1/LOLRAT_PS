@@ -1,0 +1,10 @@
+This project is a powershell based version of the old python LOLRAT. 
+LOLRAT works by TCP/IP and is modular, so it can be easily extended and is only in memory.
+The server side is also a powershell script that can handle multible clients at once and has a menu for selecting each. 
+It should have a primary focus on sending and executing powershell scripts on the target machine in memory.
+
+# ToDo:
+- [X] Add a simple reverse shell
+- [X] Create module system for powershell scripts that have input and output
+- [ ] Add persistence to the client using registry and starting powershell script using only memory and without needing it on disk
+- [ ] Add a module for screensharing
